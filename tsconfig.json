@@ -1,0 +1,19 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "env.d.ts", 
+    "src/react-tradingview-widget.d.ts",
+    "src/views/chart/Chart.tsx",
+    "src/views/Home/watchlists/Symbol.tsxr",
+    "src/theme/Styles.js",
+    "src/theme/Fonts.js",
+    "src/theme/Colors.js",
+    "src/theme/Texts.js",
+    "src/views/test.js",
+    "src/navigation/AuthNav.js",
+    "src/store/authSlice.js",
+    "src/store/Store.js"
+, "src/views/Home/watchlists/chart/WSData.js"  ]
+}
